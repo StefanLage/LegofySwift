@@ -1,4 +1,6 @@
 # LegofySwift
+[![Build Status](https://travis-ci.org/StefanLage/LegofySwift.svg?branch=master)](https://travis-ci.org/StefanLage/LegofySwift)
+
 
 Framework making images look as if they are made out of 1x1 LEGO blocks.
 
