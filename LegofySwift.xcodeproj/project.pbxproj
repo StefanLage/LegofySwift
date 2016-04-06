@@ -7,16 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81899481C528B3800E26838 /* Legofy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81899461C528B3800E26838 /* Legofy.swift */; };
+		F81899491C528B3800E26838 /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81899471C528B3800E26838 /* NSImageExtension.swift */; };
+		F818996E1C52961A00E26838 /* LegofySwiftMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F818996D1C52961A00E26838 /* LegofySwiftMacTests.swift */; };
+		F81899701C52961A00E26838 /* LegofySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F872CF5B1C51993A0006F99F /* LegofySwift.framework */; };
+		F81899821C52976F00E26838 /* image in Resources */ = {isa = PBXBuildFile; fileRef = F818997F1C52976F00E26838 /* image */; };
+		F81899831C52976F00E26838 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F81899801C52976F00E26838 /* image.jpg */; };
+		F81899841C52976F00E26838 /* image.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F81899811C52976F00E26838 /* image.pdf */; };
+		F84CD2311C4F84F200A79CD9 /* LegofyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84CD2301C4F84F200A79CD9 /* LegofyTests.swift */; };
+		F872CF5E1C51993A0006F99F /* LegofySwiftMac.h in Headers */ = {isa = PBXBuildFile; fileRef = F872CF5D1C51993A0006F99F /* LegofySwiftMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F872CF681C519ADE0006F99F /* image in Resources */ = {isa = PBXBuildFile; fileRef = F8FE48B31C503C940070F1A8 /* image */; };
+		F872CF691C519AE30006F99F /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FE48B41C503C940070F1A8 /* image.jpg */; };
+		F87770EF1CB51C79005A7C17 /* image.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F87770EE1CB51C79005A7C17 /* image.pdf */; };
 		F8AEC1601C40673700B8BB6E /* LegofySwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AEC15F1C40673700B8BB6E /* LegofySwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8AEC1671C40673800B8BB6E /* LegofySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AEC15C1C40673700B8BB6E /* LegofySwift.framework */; };
-		F8AEC16C1C40673800B8BB6E /* LegofySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEC16B1C40673800B8BB6E /* LegofySwiftTests.swift */; };
-		F8AEC1771C40676300B8BB6E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEC1761C40676300B8BB6E /* Test.swift */; };
-		F8AEC1801C406CAA00B8BB6E /* 1x1.png in Resources */ = {isa = PBXBuildFile; fileRef = F8AEC17F1C406CAA00B8BB6E /* 1x1.png */; };
-		F8AEC1831C40750800B8BB6E /* Palettes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEC1821C40750800B8BB6E /* Palettes.swift */; };
 		F8AEC1851C40755300B8BB6E /* Legofy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEC1841C40755300B8BB6E /* Legofy.swift */; };
+		F8C4DC071C9E0B4900A08A97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C4DC061C9E0B4900A08A97 /* Images.xcassets */; };
+		F8C4DC081C9E0B5300A08A97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C4DC061C9E0B4900A08A97 /* Images.xcassets */; };
+		F8ED93D71C43A79C00142CCD /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED93D61C43A79C00142CCD /* UIImageExtension.swift */; };
+		F8FE48B61C503C940070F1A8 /* image in Resources */ = {isa = PBXBuildFile; fileRef = F8FE48B31C503C940070F1A8 /* image */; };
+		F8FE48B71C503C940070F1A8 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FE48B41C503C940070F1A8 /* image.jpg */; };
+		F8FE48B91C503D3E0070F1A8 /* image in Resources */ = {isa = PBXBuildFile; fileRef = F8FE48B31C503C940070F1A8 /* image */; };
+		F8FE48BA1C503D3E0070F1A8 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FE48B41C503C940070F1A8 /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F81899711C52961A00E26838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8AEC1531C40673700B8BB6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F872CF5A1C51993A0006F99F;
+			remoteInfo = LegofySwiftMac;
+		};
 		F8AEC1681C40673800B8BB6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F8AEC1531C40673700B8BB6E /* Project object */;
@@ -27,19 +49,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F81899461C528B3800E26838 /* Legofy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Legofy.swift; path = Legofy/Legofy.swift; sourceTree = "<group>"; };
+		F81899471C528B3800E26838 /* NSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSImageExtension.swift; path = Legofy/NSImageExtension.swift; sourceTree = "<group>"; };
+		F818996B1C52961A00E26838 /* LegofySwiftMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegofySwiftMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F818996D1C52961A00E26838 /* LegofySwiftMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegofySwiftMacTests.swift; sourceTree = "<group>"; };
+		F818996F1C52961A00E26838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F818997F1C52976F00E26838 /* image */ = {isa = PBXFileReference; lastKnownFileType = file; path = image; sourceTree = "<group>"; };
+		F81899801C52976F00E26838 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		F81899811C52976F00E26838 /* image.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = image.pdf; sourceTree = "<group>"; };
+		F84CD2301C4F84F200A79CD9 /* LegofyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegofyTests.swift; sourceTree = "<group>"; };
+		F872CF5B1C51993A0006F99F /* LegofySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LegofySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F872CF5D1C51993A0006F99F /* LegofySwiftMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LegofySwiftMac.h; sourceTree = "<group>"; };
+		F872CF5F1C51993A0006F99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87770EE1CB51C79005A7C17 /* image.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = image.pdf; sourceTree = "<group>"; };
 		F8AEC15C1C40673700B8BB6E /* LegofySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LegofySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AEC15F1C40673700B8BB6E /* LegofySwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LegofySwift.h; sourceTree = "<group>"; };
 		F8AEC1611C40673700B8BB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8AEC1661C40673800B8BB6E /* LegofySwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegofySwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8AEC16B1C40673800B8BB6E /* LegofySwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegofySwiftTests.swift; sourceTree = "<group>"; };
 		F8AEC16D1C40673800B8BB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8AEC1761C40676300B8BB6E /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		F8AEC17F1C406CAA00B8BB6E /* 1x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1x1.png; path = Assets/1x1.png; sourceTree = SOURCE_ROOT; };
-		F8AEC1821C40750800B8BB6E /* Palettes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palettes.swift; sourceTree = "<group>"; };
 		F8AEC1841C40755300B8BB6E /* Legofy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Legofy.swift; sourceTree = "<group>"; };
+		F8C4DC061C9E0B4900A08A97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
+		F8ED93D61C43A79C00142CCD /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		F8FE48B31C503C940070F1A8 /* image */ = {isa = PBXFileReference; lastKnownFileType = file; path = image; sourceTree = "<group>"; };
+		F8FE48B41C503C940070F1A8 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F81899681C52961A00E26838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81899701C52961A00E26838 /* LegofySwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F872CF571C51993A0006F99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8AEC1581C40673700B8BB6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,11 +108,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F81899451C528B1800E26838 /* Legofy */ = {
+			isa = PBXGroup;
+			children = (
+				F81899461C528B3800E26838 /* Legofy.swift */,
+				F81899471C528B3800E26838 /* NSImageExtension.swift */,
+			);
+			name = Legofy;
+			sourceTree = "<group>";
+		};
+		F818996C1C52961A00E26838 /* LegofySwiftMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				F818997E1C52976F00E26838 /* TestFiles */,
+				F818996D1C52961A00E26838 /* LegofySwiftMacTests.swift */,
+				F818996F1C52961A00E26838 /* Info.plist */,
+			);
+			path = LegofySwiftMacTests;
+			sourceTree = "<group>";
+		};
+		F818997E1C52976F00E26838 /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F818997F1C52976F00E26838 /* image */,
+				F81899801C52976F00E26838 /* image.jpg */,
+				F81899811C52976F00E26838 /* image.pdf */,
+			);
+			path = TestFiles;
+			sourceTree = "<group>";
+		};
+		F872CF5C1C51993A0006F99F /* LegofySwiftMac */ = {
+			isa = PBXGroup;
+			children = (
+				F81899451C528B1800E26838 /* Legofy */,
+				F872CF5D1C51993A0006F99F /* LegofySwiftMac.h */,
+				F872CF5F1C51993A0006F99F /* Info.plist */,
+			);
+			path = LegofySwiftMac;
+			sourceTree = "<group>";
+		};
 		F8AEC1521C40673700B8BB6E = {
 			isa = PBXGroup;
 			children = (
 				F8AEC15E1C40673700B8BB6E /* LegofySwift */,
 				F8AEC16A1C40673800B8BB6E /* LegofySwiftTests */,
+				F872CF5C1C51993A0006F99F /* LegofySwiftMac */,
+				F818996C1C52961A00E26838 /* LegofySwiftMacTests */,
 				F8AEC15D1C40673700B8BB6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +163,8 @@
 			children = (
 				F8AEC15C1C40673700B8BB6E /* LegofySwift.framework */,
 				F8AEC1661C40673800B8BB6E /* LegofySwiftTests.xctest */,
+				F872CF5B1C51993A0006F99F /* LegofySwift.framework */,
+				F818996B1C52961A00E26838 /* LegofySwiftMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,11 +172,10 @@
 		F8AEC15E1C40673700B8BB6E /* LegofySwift */ = {
 			isa = PBXGroup;
 			children = (
+				F8C4DC061C9E0B4900A08A97 /* Images.xcassets */,
 				F8AEC1811C4074F300B8BB6E /* Legofy */,
-				F8AEC1781C406C3900B8BB6E /* Assets */,
 				F8AEC15F1C40673700B8BB6E /* LegofySwift.h */,
 				F8AEC1611C40673700B8BB6E /* Info.plist */,
-				F8AEC1761C40676300B8BB6E /* Test.swift */,
 			);
 			path = LegofySwift;
 			sourceTree = "<group>";
@@ -91,32 +183,43 @@
 		F8AEC16A1C40673800B8BB6E /* LegofySwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				F8AEC16B1C40673800B8BB6E /* LegofySwiftTests.swift */,
+				F8FE48B21C503C940070F1A8 /* TestFiles */,
 				F8AEC16D1C40673800B8BB6E /* Info.plist */,
+				F84CD2301C4F84F200A79CD9 /* LegofyTests.swift */,
 			);
 			path = LegofySwiftTests;
-			sourceTree = "<group>";
-		};
-		F8AEC1781C406C3900B8BB6E /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				F8AEC17F1C406CAA00B8BB6E /* 1x1.png */,
-			);
-			name = Assets;
 			sourceTree = "<group>";
 		};
 		F8AEC1811C4074F300B8BB6E /* Legofy */ = {
 			isa = PBXGroup;
 			children = (
-				F8AEC1821C40750800B8BB6E /* Palettes.swift */,
 				F8AEC1841C40755300B8BB6E /* Legofy.swift */,
+				F8ED93D61C43A79C00142CCD /* UIImageExtension.swift */,
 			);
 			name = Legofy;
+			sourceTree = "<group>";
+		};
+		F8FE48B21C503C940070F1A8 /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F87770EE1CB51C79005A7C17 /* image.pdf */,
+				F8FE48B31C503C940070F1A8 /* image */,
+				F8FE48B41C503C940070F1A8 /* image.jpg */,
+			);
+			path = TestFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		F872CF581C51993A0006F99F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F872CF5E1C51993A0006F99F /* LegofySwiftMac.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8AEC1591C40673700B8BB6E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +231,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		F818996A1C52961A00E26838 /* LegofySwiftMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81899731C52961A00E26838 /* Build configuration list for PBXNativeTarget "LegofySwiftMacTests" */;
+			buildPhases = (
+				F81899671C52961A00E26838 /* Sources */,
+				F81899681C52961A00E26838 /* Frameworks */,
+				F81899691C52961A00E26838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81899721C52961A00E26838 /* PBXTargetDependency */,
+			);
+			name = LegofySwiftMacTests;
+			productName = LegofySwiftMacTests;
+			productReference = F818996B1C52961A00E26838 /* LegofySwiftMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F872CF5A1C51993A0006F99F /* LegofySwiftMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F872CF601C51993A0006F99F /* Build configuration list for PBXNativeTarget "LegofySwiftMac" */;
+			buildPhases = (
+				F872CF561C51993A0006F99F /* Sources */,
+				F872CF571C51993A0006F99F /* Frameworks */,
+				F872CF581C51993A0006F99F /* Headers */,
+				F872CF591C51993A0006F99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LegofySwiftMac;
+			productName = LegofySwiftMac;
+			productReference = F872CF5B1C51993A0006F99F /* LegofySwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F8AEC15B1C40673700B8BB6E /* LegofySwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8AEC1701C40673800B8BB6E /* Build configuration list for PBXNativeTarget "LegofySwift" */;
@@ -174,6 +313,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Stefan Lage";
 				TargetAttributes = {
+					F818996A1C52961A00E26838 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F872CF5A1C51993A0006F99F = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					F8AEC15B1C40673700B8BB6E = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -196,16 +341,40 @@
 			targets = (
 				F8AEC15B1C40673700B8BB6E /* LegofySwift */,
 				F8AEC1651C40673800B8BB6E /* LegofySwiftTests */,
+				F872CF5A1C51993A0006F99F /* LegofySwiftMac */,
+				F818996A1C52961A00E26838 /* LegofySwiftMacTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F81899691C52961A00E26838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81899821C52976F00E26838 /* image in Resources */,
+				F81899831C52976F00E26838 /* image.jpg in Resources */,
+				F81899841C52976F00E26838 /* image.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F872CF591C51993A0006F99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C4DC081C9E0B5300A08A97 /* Images.xcassets in Resources */,
+				F872CF681C519ADE0006F99F /* image in Resources */,
+				F872CF691C519AE30006F99F /* image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8AEC15A1C40673700B8BB6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8AEC1801C406CAA00B8BB6E /* 1x1.png in Resources */,
+				F8FE48B91C503D3E0070F1A8 /* image in Resources */,
+				F8C4DC071C9E0B4900A08A97 /* Images.xcassets in Resources */,
+				F8FE48BA1C503D3E0070F1A8 /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,19 +382,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FE48B61C503C940070F1A8 /* image in Resources */,
+				F8FE48B71C503C940070F1A8 /* image.jpg in Resources */,
+				F87770EF1CB51C79005A7C17 /* image.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F81899671C52961A00E26838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F818996E1C52961A00E26838 /* LegofySwiftMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F872CF561C51993A0006F99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81899491C528B3800E26838 /* NSImageExtension.swift in Sources */,
+				F81899481C528B3800E26838 /* Legofy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8AEC1571C40673700B8BB6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8AEC1771C40676300B8BB6E /* Test.swift in Sources */,
-				F8AEC1831C40750800B8BB6E /* Palettes.swift in Sources */,
 				F8AEC1851C40755300B8BB6E /* Legofy.swift in Sources */,
+				F8ED93D71C43A79C00142CCD /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,13 +421,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8AEC16C1C40673800B8BB6E /* LegofySwiftTests.swift in Sources */,
+				F84CD2311C4F84F200A79CD9 /* LegofyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F81899721C52961A00E26838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F872CF5A1C51993A0006F99F /* LegofySwiftMac */;
+			targetProxy = F81899711C52961A00E26838 /* PBXContainerItemProxy */;
+		};
 		F8AEC1691C40673800B8BB6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F8AEC15B1C40673700B8BB6E /* LegofySwift */;
@@ -248,6 +441,79 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		F81899741C52961A00E26838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LegofySwiftMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = StefanLage.LegofySwiftMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F81899751C52961A00E26838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LegofySwiftMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = StefanLage.LegofySwiftMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F872CF611C51993A0006F99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = LegofySwiftMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = StefanLage.LegofySwiftMac;
+				PRODUCT_NAME = LegofySwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F872CF621C51993A0006F99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = LegofySwiftMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = StefanLage.LegofySwiftMac;
+				PRODUCT_NAME = LegofySwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		F8AEC16E1C40673800B8BB6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -345,8 +611,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LegofySwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = StefanLage.LegofySwift;
@@ -364,8 +632,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LegofySwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DRELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = StefanLage.LegofySwift;
@@ -397,6 +667,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F81899731C52961A00E26838 /* Build configuration list for PBXNativeTarget "LegofySwiftMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81899741C52961A00E26838 /* Debug */,
+				F81899751C52961A00E26838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F872CF601C51993A0006F99F /* Build configuration list for PBXNativeTarget "LegofySwiftMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F872CF611C51993A0006F99F /* Debug */,
+				F872CF621C51993A0006F99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F8AEC1561C40673700B8BB6E /* Build configuration list for PBXProject "LegofySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

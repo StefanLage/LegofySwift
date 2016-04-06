@@ -37,6 +37,44 @@
                BlueprintName = "LegofySwiftTests"
                ReferencedContainer = "container:LegofySwift.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "LegofySwiftTests/test_1_PalettesNotNil()">
+               </Test>
+               <Test
+                  Identifier = "LegofySwiftTests/test_2_PalettesCount()">
+               </Test>
+               <Test
+                  Identifier = "LegofySwiftTests/test_3_PalettesKeys()">
+               </Test>
+               <Test
+                  Identifier = "LegofySwiftTests/test_4_1_PalettesEffectCount()">
+               </Test>
+               <Test
+                  Identifier = "LegofySwiftTests/test_4_1_PalettesMonoCount()">
+               </Test>
+               <Test
+                  Identifier = "LegofySwiftTests/test_4_1_PalettesSolidCount()">
+               </Test>
+               <Test
+                  Identifier = "LegofySwiftTests/test_4_1_PalettesTransparentCount()">
+               </Test>
+               <Test
+                  Identifier = "LegofySwiftTests/test_5_1_MergedPalettesNotNil()">
+               </Test>
+               <Test
+                  Identifier = "LegofySwiftTests/test_5_2_MergedPalettesCount()">
+               </Test>
+               <Test
+                  Identifier = "LegofySwiftTests/test_5_3_MergedPalettesKeys()">
+               </Test>
+               <Test
+                  Identifier = "LegofySwiftTests/test_5_4_PalettesMergedKeys()">
+               </Test>
+               <Test
+                  Identifier = "PalettesTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
